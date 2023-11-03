@@ -1,0 +1,32 @@
+*
+{
+    font-family: Baskerville,serif; 
+}
+.title
+{
+  background-color: #739072;
+  text-align: center;
+}
+.srow
+{
+    
+    background-color: #F4BF96;
+    align-items: center;
+}
+
+.imgs
+{
+    height: 114px;
+    width: 114px;
+    border: 1px solid;
+}
+.timer
+{
+    text-align: center;
+}
+.para
+{
+    height: 114px;
+    font-size: 75px; 
+    width: 114px;
+}
