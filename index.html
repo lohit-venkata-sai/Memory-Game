@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Slide Puzzle Game</title>
+        <title>Memory Game</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -13,11 +13,11 @@
             <br/>
             <div class="row" id="score">
                 <div class="col-sm-3"></div>
-                <div class="col-sm-6 timer">Time running.....</div>
+                <div class="col-sm-6" id="timer">Time :</div>
                 <div class="col-sm-3">
                     <div class="row">
-                        <div class="col-sm-6">Record Time :</div>
-                        <div class="col-sm-6">00:00</div>
+                        <div class="col-sm-6">highest Time :</div>
+                        <div class="col-sm-6" id="highestTimer"></div>
                     </div>
                     <br/>
                 </div>
@@ -25,29 +25,29 @@
             <div class="row row1">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4">
-                    <div class="row">
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
+                    <div class="row" id="card-container">
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i1" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i2" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i3"  src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i4" src="images/white.png"></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i5" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i6" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i7" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i8" src="images/white.png"></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin"><img class="imgs" id="i9" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i10" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i11" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i12" src="images/white.png"></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
-                        <div class="col-sm-3 no-margin"><img class="imgs" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i13" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i14" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i15" src="images/white.png"></div>
+                        <div class="col-sm-3 no-margin "><img class="imgs" id="i16" src="images/white.png"></div>
                     </div>
                 </div>
                 <div class="col-sm-4"></div>

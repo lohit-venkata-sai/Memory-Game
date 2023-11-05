@@ -1,16 +1,21 @@
 *
 {
     font-family: Baskerville,serif; 
+    color: #CCCCCC;
+}
+body{
+    background-color: #4D4C7D;
 }
 .title
 {
-  background-color: #739072;
+  background-color:;
   text-align: center;
+  color: #FFD700;
 }
 .srow
 {
     
-    background-color: #F4BF96;
+    background-color:  #000080;
     align-items: center;
 }
 
